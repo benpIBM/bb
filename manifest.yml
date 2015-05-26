@@ -1,0 +1,10 @@
+applications:
+- services:
+  - Cloudant NoSQL DB-yt
+  disk_quota: 1024M
+  host: bbsampleapp
+  name: bbsampleapp
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
