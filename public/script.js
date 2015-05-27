@@ -1,9 +1,9 @@
-function lookupPID(){
+function lookupSKU(){
 	
-    var pid = document.getElementById("PID_form");
+    var sku = document.getElementById("SKU_form");
 
-    if (pid.elements[0]) {
-    	alert(pid.elements[0].value);
+    if (sku.elements[0]) {
+    	alert(sku.elements[0].value);
     }
 
 }
