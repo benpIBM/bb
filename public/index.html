@@ -14,25 +14,41 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
   </head>
 
   <body>
     <div align="center" style= "width:100%;">
     <table>
-      <tr>
+      <tr align="center">
         <td>
           <img class = "newappIcon" src="images/Best_Buy_Logo.png" max-width="50%" max-height="50%" align="center">
         </td>
       </tr>
       <tr>
         <td>
-            <h1 align="center">Welcome!</h1>
-          <p align="center">Please speak or enter the Product ID to be returned: </p>
-            <span class = "blue" align="center">NodeJS Starter Application</span>.
+            <h1 align="center">Reverse Logisitics Application</h1>
+            <br />
+            <form >
+          <p align="center">Please speak or enter the Product ID to be returned:
+          <br />
+          <br />
+          <label align="center"><input type="text" class="form-control" placeholder="Product ID"></label>
+          <br />
+          <br />
+          <a align="center" onclick="lookupPID()" href="/index.html" type="submit" class="btn btn-success" >Submit</a>
+          </p>
             </td>
             </tr>
     </table>
     </div>
+        <script> 
+      function lookupPID(){
+  
+        alert("hello world!");
+
+      }
+    </script>
   </body>
 
 </html>
